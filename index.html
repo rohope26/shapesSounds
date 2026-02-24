@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shape Columns → Octaves</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+
+    <div class="grid">
+      <!-- Circles -->
+      <div class="col">
+        <div class="shape circle" data-note="E5" ></div>
+        <div class="shape circle" data-note="E4" ></div>
+        <div class="shape circle" data-note="E3" ></div>
+      </div>
+
+      <!-- Squares -->
+      <div class="col">
+        <div class="shape square" data-note="D5" ></div>
+        <div class="shape square" data-note="D4" ></div>
+        <div class="shape square" data-note="D3" ></div>
+      </div>
+
+      <!-- Triangles -->
+      <div class="col">
+        <div class="shape triangle" data-note="C5" ></div>
+        <div class="shape triangle" data-note="C4" ></div>
+        <div class="shape triangle" data-note="C3" ></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/tone@14.8.49/build/Tone.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
